@@ -1,5 +1,4 @@
 # -*- coding:utf-8 -*-
-#凤凰网挂了改用万得数据
 import easygui as eg
 import time as tm
 import numpy as np
