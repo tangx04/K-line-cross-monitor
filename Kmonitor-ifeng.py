@@ -86,7 +86,6 @@ if __name__ == "__main__":
          total_codes=0
          avn=0
          codes=[]
-         print u'正在启动万得接口，请稍后...'
          ktype=eg.choicebox(msg=u'请选择k线周期', choices=K_MIN_LABELS)
          while(avn<=1):
                   avn=eg.integerbox(msg=u'请输入均线天数，范围在1-500之间', default=10, upperbound=500)
